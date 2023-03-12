@@ -3,6 +3,9 @@
 
 //--PW the style object will style this component only
 
+import Container from "../components/Container";
+import Row from "../components/Row";
+import Col from "../components/Col";
 import { useState } from "react";
 
 const styles ={
@@ -46,24 +49,31 @@ export default function Contact() {
 
    return (
       <>
-         <h1 style={ {color : 'blue', textAlign: 'center',
-      margin: '20px 0',} }>Contact!</h1>
+      <Container>
+         <Row>
+            <Col size="sm-4">
+               <h1 style={ {color : 'blue', textAlign: 'center', margin: '20px 0',} }>Contact!</h1>
 
-         <h2 style={styles.header}>Let's Chat Over a Cuppa 🍵!</h2>
+               <h2 style={styles.header}>Let's Chat Over a Cuppa 🍵!</h2>
+            </Col>
+            <Col size="sm-8">  
+               <form onSubmit={handleSubmit}>
+                  <input name="name" onChange={handleChange} type="text" placeholder="Your Name" />
 
-         <form onSubmit={handleSubmit}>
-            <input name="name" onChange={handleChange} type="text" placeholder="Your Name" />
-
-            <input name="email" onChange={handleChange} type="email" placeholder="Your Email" />
+                  <input name="email" onChange={handleChange} type="email" placeholder="Your Email" />
             
-            <textarea name="message" onChange={handleChange} cols="30" rows="10" placeholder="Your Message"></textarea>
-            <button style={styles.submitBtn}>Submit</button>
-         </form>
-
-         {/* The following is a bit of fun to show that as a user types the email, it outputs it to the <p>! */}
-         <p>Name: {formData.name}</p>
-         <p>Email: {formData.email}</p>
-         <p>Message: {formData.message}</p>
+                  <textarea name="message" onChange={handleChange} cols="30" rows="10" placeholder="Your Message"></textarea>
+                  
+                  <button style={styles.submitBtn}>Submit</button>
+                  
+                  {/* The following is a bit of fun to show that as a user types the email, it outputs it to the <p>! */}
+                  <p>Name: {formData.name}</p>
+                  <p>Email: {formData.email}</p>
+                  <p>Message: {formData.message}</p>
+               </form>
+            </Col>
+         </Row>
+      </Container>
       </>
    )
 }
