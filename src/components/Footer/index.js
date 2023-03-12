@@ -1,12 +1,13 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 import "./style.css";
 
-
 export default function Footer() {
    return (
-      <Footer>
+      <footer>
          <h3>This is the footer</h3>
-      </Footer>
+
+      </footer>
    )
 }
