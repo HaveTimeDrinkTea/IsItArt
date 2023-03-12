@@ -5,7 +5,7 @@ header {
   font-size: 1.2rem;
   background-color: var(--colorSeaGreenLight);
   padding: 2rem 3%; /* top bottom 9 px and left right 3%*/
-  margin-bottom: 3rem;
+  /* margin-bottom: 3rem; */
 }
 
 header h3 {

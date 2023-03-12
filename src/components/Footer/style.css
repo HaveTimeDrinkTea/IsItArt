@@ -5,7 +5,7 @@ footer {
   font-size: 1.2rem;
   background-color: var(--colorElectricBlue);
   padding: 2rem 3%; /* top bottom 9 px and left right 3%*/
-  margin-top: 3rem;
+  /* margin-top: 3rem; */
 }
 
 footer h3 {
