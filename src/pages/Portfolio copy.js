@@ -5,7 +5,6 @@ import Col from '../components/Col';
 import dayjs from 'dayjs' 
 import portfolioData from '../portfolio.json';
 import CardProj from '../components/CardProj';
-// import CardImgOL from '../components/CardImgOL';
 
 export default function Portfolio() {
 

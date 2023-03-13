@@ -10,6 +10,7 @@ import Home from './pages/Home';
 import Contact from './pages/Contact';
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
+import PortfolioProject from './pages/PortfolioProject';
 import Skills from './pages/Skills';
 import Resume from './pages/Resume';
 
@@ -31,6 +32,7 @@ function App() {
                <Route path="/contact" element={<Contact />} />
                <Route path="/about" element={<About />} />
                <Route path="/portfolio" element={<Portfolio />} />
+               <Route path="/portfolio/project/1" element={<PortfolioProject id={"1"} />} />
                <Route path="/skills" element={<Skills />} />
                <Route path="/resume" element={<Resume />} />
                <Route path="*" element={<Home title={title}/>} />
