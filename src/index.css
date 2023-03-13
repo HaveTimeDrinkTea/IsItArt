@@ -104,12 +104,30 @@ body {
 
 h1 {
   padding-top: 5rem;
+  font-size: 4em;
+  text-align: right;
+  float: right;
+  text-orientation: upright;
 }
 
-h2 {
+.rhsH2 {
+  padding-top: 2rem;
   text-align: center;
   color: var(--colorElectricBlue);
   font-size: 3rem;
+}
+
+h3 {
+  text-align: center;
+  color: var(--colorElectricBlue);
+  font-size: 3rem;
+  padding: 0.8rem;
+}
+
+h4 {
+  text-align: center;
+  color: var(--colorElectricBlue);
+  font-size: 1rem;
   padding: 0.8rem;
 }
 
