@@ -3,7 +3,7 @@ import Container from '../components/Container';
 import Row from '../components/Row';
 import Col from '../components/Col';
 import CarouselArt from '../components/CarouselArt';
-
+import '../index.css';
 export default function PortfolioArt() {
 
    // const[portfolioList, setPortfolioList] = useState(portfolioData);
@@ -14,12 +14,17 @@ export default function PortfolioArt() {
       <Row>
       <Col size="sm-6">
             <div className="homeBkGr">
-               <h1>My digital pieces</h1>
+               <h1>a preview of some of my art works</h1>
             </div>
          </Col>
          <Col size="sm-6">  
-         <div> <br/><br/> from portfolio Art </div>
-            <CarouselArt />
+         <div className="container rhsContainer mx-auto"> 
+         <br/><br/>
+         <CarouselArt />
+
+
+         </div>
+            
          
          </Col>
       </Row>

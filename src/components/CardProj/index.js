@@ -2,7 +2,7 @@ import React from "react";
 import Card from 'react-bootstrap/Card';
 import { NavLink } from "react-router-dom";
 import "./style.css";
-import pictea from "./";
+
 
 export default function CardProj(props) {
 

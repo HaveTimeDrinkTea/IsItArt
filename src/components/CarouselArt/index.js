@@ -1,24 +1,25 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
+import "./style.css";
 
 export default function CarouselArt() {
   return (
    <>
-   <div> from carousel </div>
-    <Carousel fade variant="dark">
+   <div className="carouselLayer rhs traditional box mx-auto">
+    <Carousel fade variant="dark" center>
 
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://havetimedrinktea.github.io/w03_portfolio_with_bootstrap/images/webdeveloper_peiwang_teanamu_dot_com.png"
-          alt="Second slide"
+          src="https://lh5.googleusercontent.com/RdlfAR1YyrpjRmMbvVOONzffZqnRV9h0PzLgJNsTEA6PJgDqEUJsVCucJ1cUxL-M0vc=w1200-h1200-p"
+          alt="boymonk"
         />
 
       </Carousel.Item>      <Carousel.Item>
         <img
           className="d-block w-100"
           src="https://lh3.googleusercontent.com/_UXRUHn7uCZAuWJy93a7xeZ6_FNIsIEogheuyalagekwI7M9Q13dk9EAQrx0BcLqmDU=w1200-h1200-p"
-          alt="First slide"
+          alt="snowtea"
         />
 
       </Carousel.Item>
@@ -26,12 +27,49 @@ export default function CarouselArt() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="holder.js/800x400?text=Third slide&bg=20232a"
-          alt="Third slide"
+          src="https://lh5.googleusercontent.com/1ILlRDQsNVHhBmSoIEOnX2eSgSRC1yK_8X1JKEwzv_AAXsLJzLIHh-Qgnok5ZCXqk9Y=w1200-h1200-p"
+          alt="easter"
+        />
+
+      </Carousel.Item>
+
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="https://lh6.googleusercontent.com/gEbAkY_5pDNH0w4bYqHH4s9IPZdv9G6uYu3pZ8sRupLX0hiZAlv4c4RFx1YnmUspn8Y=w1200-h1200-p"
+          alt="inthemoment"
+        />
+
+      </Carousel.Item>
+
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="https://lh5.googleusercontent.com/FlJp1IjsDBasbrI3dMQPkhBUkrwXU6ZnFgN5-r474cRqSCcGYCDGLSCZqCGhqGw5lts=w1200-h1200-p"
+          alt="apple"
+        />
+
+      </Carousel.Item>
+
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="https://lh5.googleusercontent.com/GogmxlpIMmNOUpc__luUjvBRFb56vkskuTw_faYpgi-6UpOeP9k28Z517XF4Um7xY40=w1200-h1200-p"
+          alt="teaLeaf"
+        />
+
+      </Carousel.Item>
+
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="https://lh3.googleusercontent.com/WsURn5Rx2RZJUIHkmM49umUv53cdww3ANWeP0bZNmOonwRSEgpVo4FPtYie8uwvsULc=w1200-h1200-p"
+          alt="toastingtea"
         />
 
       </Carousel.Item>
     </Carousel>
+    </div>
     </>
   );
 }

@@ -11,9 +11,16 @@ function Home(props) {
       <Row>
 
         <Col size="sm-6">
-          <div className="homeBkGr">
+          <div className="homeBkGr lhsH">
+            <div class="typewriter">
+            <h1>Pei Wang</h1>
+            </div>
 
-          <h1>Pei Wang</h1>
+          <br/><br/>
+        <HomeRoles roleType="web developer" />
+        <HomeRoles roleType="digital illustrator" />
+        <HomeRoles roleType="tea master" />
+        <HomeRoles roleType="kindness promoter" />
           </div>
           
         </Col>

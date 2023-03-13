@@ -9,13 +9,4 @@
    color: var(--colorWhite);
 }
 
-.aHoverTopNav {
-   text-decoration: none;
-}
-
-.aHoverTopNav:hover {
-   text-decoration: none;
-   color: var(--colorYellowBright);
-}
-
 

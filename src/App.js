@@ -1,8 +1,8 @@
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-import Header from './components/Header/index.js';
 import NavbarScroll from './components/NavbarScroll/index.js';
+import NavbarScrollFooter from './components/NavbarScrollFooter/index.js';
 import Wrapper from './components/Wrapper/index.js';
 import Footer from './components/Footer/index.js';
 
@@ -22,8 +22,6 @@ function App() {
 
    return (
    <>
-
-
          <NavbarScroll />
          {/* <Header title={title} /> */}
          <Wrapper> 
@@ -40,7 +38,7 @@ function App() {
                <Route path="*" element={<Home title={title}/>} />
             </Routes>             
          </Wrapper>
-         <Footer />
+         <NavbarScrollFooter />
 
    </>
 )

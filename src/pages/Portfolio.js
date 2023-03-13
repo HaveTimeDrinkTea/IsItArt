@@ -4,6 +4,7 @@ import Row from '../components/Row';
 import Col from '../components/Col';
 import dayjs from 'dayjs' 
 import CardProj from '../components/CardProj';
+import ProjectAccordion from '../components/ProjectAccordion';
 import portfolioData from '../portfolio.json';
 
 
@@ -22,15 +23,11 @@ export default function Portfolio() {
             </div>
          </Col>
          <Col size="sm-6">  
-            {portfolioList.map((proj) => (
-               <CardProj
-               id={proj.id}
-               projName={proj.projName}
-               imageLoc={proj.imageLoc}
-               tech={proj.tech}
-               />
-            ))}
-         
+            <div className="rhs">
+
+               <ProjectAccordion />
+
+            </div>
          </Col>
       </Row>
       </Container>

@@ -1,0 +1,27 @@
+.carouselLayer {
+  /* border: 1px solid #666666 ; */
+
+  /* box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  /* padding: 2px 5px 5px 2px;
+  background-color: rgba(102, 173, 183, 0.7);
+  border-radius: 5px; */
+  /* padding: 5px; */
+  /* box-shadow: 0 0 0 2px rgba(218,102,123,1), 8px 8px 0 0 rgba(218,102,123,1); */
+  /* box-shadow: 0 0 0 2px rgba(102, 173, 183,0.7), 8px 8px 0 0 rgba(102, 173, 183,0.7); */ 
+}
+
+.layered.box {
+  box-shadow:
+    0 1px 1px hsl(0deg 0% 0% / 0.075),
+    0 2px 2px hsl(0deg 0% 0% / 0.075),
+    0 4px 4px hsl(0deg 0% 0% / 0.075),
+    0 8px 8px hsl(0deg 0% 0% / 0.075),
+    0 16px 16px hsl(0deg 0% 0% / 0.075)
+  ;
+}
+
+.traditional.box {
+  box-shadow:
+    0 6px 6px hsl(0deg 0% 0% / 0.3);
+}
+

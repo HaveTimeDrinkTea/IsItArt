@@ -3,7 +3,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   font-size: 1.2rem;
-  background-color: var(--colorElectricBlue);
+  background-color: rgba(0, 71, 171, 0.8);
   padding: 2rem 3%; /* top bottom 9 px and left right 3%*/
   /* margin-top: 3rem; */
 }
@@ -17,3 +17,12 @@ footer h3 a {
   font-size: 1rem;
   text-decoration: none;
 }
+
+.aHover {
+    text-decoration: none;
+}
+  
+.aHover:hover {
+  text-decoration: none;
+    color: var(--colorMustard);
+  }
