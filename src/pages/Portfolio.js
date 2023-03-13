@@ -3,9 +3,9 @@ import Container from '../components/Container';
 import Row from '../components/Row';
 import Col from '../components/Col';
 import dayjs from 'dayjs' 
-import portfolioData from '../portfolio.json';
 import CardProj from '../components/CardProj';
-// import CardImgOL from '../components/CardImgOL';
+import portfolioData from '../portfolio.json';
+
 
 export default function Portfolio() {
 
@@ -15,7 +15,7 @@ export default function Portfolio() {
       <>
       <Container>
       <Row>
-         <Col size="sm-6">
+      <Col size="sm-6">
             <div className="homeBkGr">
                <h1>My Portfolio</h1>
                <h4>Last updated: {dayjs().format("D MMM YYYY") }</h4>
