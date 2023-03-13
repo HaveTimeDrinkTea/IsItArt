@@ -3,10 +3,8 @@ import Container from '../components/Container';
 import Row from '../components/Row';
 import Col from '../components/Col';
 import dayjs from 'dayjs' 
-import CardProj from '../components/CardProj';
-import ProjectAccordion from '../components/ProjectAccordion';
 import portfolioData from '../portfolio.json';
-
+import CardProj from '../components/CardProj';
 
 export default function Portfolio() {
 
@@ -16,18 +14,22 @@ export default function Portfolio() {
       <>
       <Container>
       <Row>
-      <Col size="sm-6">
+         <Col size="sm-6">
             <div className="homeBkGr">
                <h1>My Portfolio</h1>
                <h4>Last updated: {dayjs().format("D MMM YYYY") }</h4>
             </div>
          </Col>
          <Col size="sm-6">  
-            <div className="rhs">
-
-               <ProjectAccordion />
-
-            </div>
+            {portfolioList.map((proj) => (
+               <CardProj
+               id={proj.id}
+               projName={proj.projName}
+               imageLoc={proj.imageLoc}
+               tech={proj.tech}
+               />
+            ))}
+         
          </Col>
       </Row>
       </Container>

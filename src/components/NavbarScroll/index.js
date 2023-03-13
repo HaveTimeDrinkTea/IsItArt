@@ -8,27 +8,23 @@ import "./style.css";
 
 export default function NavbarScroll() {
   return (
-    <Navbar expand="lg" className="navbarScroll fixed-top">
+    <Navbar expand="lg" className="navbarScroll fixed-top justify-content-end">
       <Container fluid>
-        <Navbar.Brand href="/">HaveTimeDrinkTea</Navbar.Brand>
+        <Navbar.Brand href="/" className="aHoverTopNav">HaveTimeDrinkTea</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
-            className="me-auto my-2 my-lg-0"
+            className="me-auto my-2 my-lg-0 mx-auto"
             style={{ maxHeight: '190px' }}
             navbarScroll
           >
-            <Nav.Link href="/portfolio">Portfolio</Nav.Link>
-            <Nav.Link href="/skills">Skills</Nav.Link>
-            <Nav.Link href="/about">About Me</Nav.Link>
-            <Nav.Link href="/resume">Résumé</Nav.Link>
-            <Nav.Link href="/contact">Contact</Nav.Link>
-            <NavDropdown title="Portfolio2" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="#action3">Proj 1</NavDropdown.Item>
-              <NavDropdown.Item href="#action4">
-                Proj2
-              </NavDropdown.Item>
-            </NavDropdown>
+            <Nav.Link href="/portfolio" className="aHoverTopNav">Web Dev</Nav.Link>
+            <Nav.Link href="/portfolioart" className="aHoverTopNav">Digital Illustration</Nav.Link>
+            <Nav.Link href="/skills" className="aHoverTopNav">Skills</Nav.Link>
+            <Nav.Link href="/about" className="aHoverTopNav">About Me</Nav.Link>
+            <Nav.Link href="/resume" className="aHoverTopNav">Résumé</Nav.Link>
+            <Nav.Link href="/contact" className="aHoverTopNav">Contact</Nav.Link>
+
           </Nav>
         </Navbar.Collapse>
       </Container>

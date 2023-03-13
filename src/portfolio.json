@@ -1,0 +1,18 @@
+[
+   {
+      "id": 1,
+      "projName": "teanamu.com",
+      "projURL": "https://www.teanamu.com",
+      "imageLoc": "./assets/peiwang_teanamu.png",
+      "tech": "HTML, CSS",
+      "desc": "a wordpress woocommerce retail site"
+   },
+   {
+      "id": 2,
+      "projName": "teanamu retail blah",
+      "projURL": "https://www.teanamu.com",
+      "imageLoc": "https://havetimedrinktea.github.io/w03_portfolio_with_bootstrap/images/webdeveloper_peiwang_teanamu_dot_com.png",
+      "tech": "HTML, CSS",
+      "desc": "a wordpress woocommerce retail site"
+   }
+]

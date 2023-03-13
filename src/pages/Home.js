@@ -1,3 +1,4 @@
+import React from 'react';
 import Container from '../components/Container';
 import Row from '../components/Row';
 import Col from '../components/Col';
@@ -7,18 +8,26 @@ function Home(props) {
   return (
     <> 
     <Container>
-    <div>
       <Row>
 
         <Col size="sm-6">
-          <div className="homeBkGr">
+          <div className="homeBkGr lhsH">
+            <div class="typewriter">
+            <h1>Pei Wang</h1>
+            </div>
 
-          <h1>Pei Wang</h1>
+          <br/><br/>
+        <HomeRoles roleType="web developer" />
+        <HomeRoles roleType="digital illustrator" />
+        <HomeRoles roleType="tea master" />
+        <HomeRoles roleType="kindness promoter" />
           </div>
           
         </Col>
         <Col size="sm-6">  
-        <h1 className="main-header">Is It Art?</h1>
+        <h2 className="rhsH2">
+          <br/> 
+          <br/>Is It Art?</h2>
         <HomeRoles roleType="web developer" />
         <HomeRoles roleType="digital illustrator" />
         <HomeRoles roleType="tea master" />
@@ -26,8 +35,6 @@ function Home(props) {
         </Col>
 
       </Row>
-
-      </div>
     </Container>
     </>
 
