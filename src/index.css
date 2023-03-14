@@ -145,7 +145,7 @@ h3.homeRoles {
   text-align: left;
   color: var(--colorPink);
   text-shadow: 2px 2px #fffcfc;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: bold;
   padding: 0.8rem;
   padding-left: 3rem;
@@ -239,6 +239,7 @@ a:hover .iconColorSize2 {
 .typewriter h1 {
   font-family: monospace;
   padding-top: 0;
+  font-size: 4rem;
   letter-spacing: .13em;
   margin: 0 auto;
   overflow: hidden;
@@ -333,7 +334,7 @@ button {
 }
 
 .homeWD {
-  background-image: url('../public/images/home.png') !important;
+  background-image: url('../public/images/teapot_cups.png') !important;
   background-repeat: no-repeat;
   background-size:contain;
   background-position: center;
@@ -341,7 +342,7 @@ button {
 }
 
 .homeDI {
-  background-image: url('../public/images/home.png') !important;
+  background-image: url('../public/images/bonsai_man.png') !important;
   background-repeat: no-repeat;
   background-size:contain;
   background-position: center;
@@ -349,7 +350,7 @@ button {
 }
 
 .homeSk {
-  background-image: url('../public/images/home.png') !important;
+  background-image: url('../public/images/pink_bonsai.png') !important;
   background-repeat: no-repeat;
   background-size:contain;
   background-position: center;
@@ -357,7 +358,7 @@ button {
 }
 
 .homeRe {
-  background-image: url('../public/images/home.png') !important;
+  background-image: url('../public/images/dragonfly_pot.png') !important;
   background-repeat: no-repeat;
   background-size:contain;
   background-position: center;
@@ -365,7 +366,7 @@ button {
 }
 
 .homeCn {
-  background-image: url('../public/images/home.png') !important;
+  background-image: url('../public/images/tea_utensils.png') !important;
   background-repeat: no-repeat;
   background-size:contain;
   background-position: center;
@@ -428,7 +429,6 @@ button {
 , .bgSwift 
 , .bgBootstrap
 , .bgGit {
-
   font-size: 2rem;
   font-weight: bold;
   padding-right: 
