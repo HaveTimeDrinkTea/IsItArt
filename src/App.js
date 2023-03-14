@@ -30,6 +30,10 @@ function App() {
                <Route path="/portfolio" element={<Portfolio />} />
                <Route path="/portfolioproject/1" element={<PortfolioProject id={"1"} />} />
                <Route path="/portfolioproject/2" element={<PortfolioProject id={"2"} />} />
+               <Route path="/portfolioproject/3" element={<PortfolioProject id={"3"} />} />
+               <Route path="/portfolioproject/4" element={<PortfolioProject id={"4"} />} />
+               <Route path="/portfolioproject/5" element={<PortfolioProject id={"5"} />} />
+               <Route path="/portfolioproject/6" element={<PortfolioProject id={"6"} />} />
                <Route path="/portfolioart" element={<PortfolioArt />} />
                <Route path="/skills" element={<Skills />} />
                <Route path="/resume" element={<Resume />} />

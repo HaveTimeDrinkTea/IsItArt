@@ -4,19 +4,65 @@
       "projName": "teanamu.com",
       "projURL": "https://www.teanamu.com",
       "imageLoc": "http://fpoimg.com/300x250?text=Preview",
+      "isGithubURL": false,
       "githubURL": "",
-      "tech": "HTML, CSS",
-      "descShort": "Fat free fat A wordpress woocommerce retail site",
-      "descLong": "Fat free fat A wordpress woocommerce retail site. Sugarless sugar a wordpress woocommerce retail site. a wordpress woocommerce retail site."
+      "tech": "Wordpress & Woocommerce",
+      "descShort": "Live retail site running since 2009 selling tea, tea class and tea house booking.",
+      "descLong": "This is the online store for my business Teanamu Chaya Teahouse. It features Woocommerce as the shopping engine on Wordpress. The frontend design is customised from a commercial theme."
    },
    {
       "id": "2",
-      "projName": "teanamu retail blah",
-      "projURL": "https://www.teanamu.com",
+      "projName": "README.md Generator",
+      "projURL": "https://github.com/HaveTimeDrinkTea/w11_Professional_README_Generator",
       "imageLoc": "http://fpoimg.com/300x250?text=Preview",
-      "githubURL": "",
-      "tech": "wordpress",
-      "descShort": "a retail site short",
-      "descLong": "a retail site Long"
+      "isGithubURL": true,
+      "githubURL": "https://github.com/HaveTimeDrinkTea/w11_Professional_README_Generator",
+      "tech": "Node.js & Inquirer.js",
+      "descShort": "A command line application that generates professional README.md files with version control.",
+      "descLong": "A command line application that generates professional README.md files. In features fun interactions with user and have a version control naming system."
+   },
+   {
+      "id": "3",
+      "projName": "README.md Generator",
+      "projURL": "https://github.com/HaveTimeDrinkTea/w11_Professional_README_Generator",
+      "imageLoc": "http://fpoimg.com/300x250?text=Preview",
+      "isGithubURL": true,
+      "githubURL": "https://github.com/HaveTimeDrinkTea/w11_Professional_README_Generator",
+      "tech": "Node.js & Inquirer.js",
+      "descShort": "A command line application that generates professional README.md files with version control.",
+      "descLong": "A command line application that generates professional README.md files. In features fun interactions with user and have a version control naming system."
+   },
+   {
+      "id": "4",
+      "projName": "JScript Code Quiz App",
+      "projURL": "https://havetimedrinktea.github.io/w06_JS_Code_Quiz/",
+      "imageLoc": "http://fpoimg.com/300x250?text=Preview",
+      "isGithubURL": true,
+      "githubURL": "https://github.com/HaveTimeDrinkTea/w06_JS_Code_Quiz",
+      "tech": "JavaScript, HTML & CSS",
+      "descShort": "A fun and interactive application featuring a timed multiple choice quiz.",
+      "descLong": "A fun and interactive application featuring a timed multiple choice quiz. This application is designedx to be scalable as more questions can be fed into the code as well changing the timing allowed for the quiz and the penalty given for incorrect answers."
+   },
+   {
+      "id": "5",
+      "projName": "5-Day Weather Dashboard",
+      "projURL": "https://havetimedrinktea.github.io/w08_Five_Day_Weather_Dashboard/",
+      "imageLoc": "http://fpoimg.com/300x250?text=Preview",
+      "isGithubURL": true,
+      "githubURL": "https://github.com/HaveTimeDrinkTea/w08_Five_Day_Weather_Dashboard",
+      "tech": "Open Weather API, Bootstrap & JavaScript",
+      "descShort": "A simple weather forecast dashboard for cities around the world.",
+      "descLong": "A simple weather forecast dashboard for cities around the world. It showcases the current weather and the 5-day forecast for the city with cool weather graphics based on the local time zones. It also keeps track of user search history in local browser storage."
+   },
+   {
+      "id": "6",
+      "projName": "Wayfaring App",
+      "projURL": "https://tomking1983.github.io/wayfaring/",
+      "isGithubURL": true,
+      "imageLoc": "http://fpoimg.com/300x250?text=Preview",
+      "githubURL": "https://github.com/HaveTimeDrinkTea/w09w10_wayfaring",
+      "tech": "Bootstrap and other APIS",
+      "descShort": "A travel information website featuring details about any country and its capital city.",
+      "descLong": "A travel information website featuring details about any country and its capital city. I am responsible for the points of interest feature and the rendering of exchange rates. I also act as the main consolidator of all scripts. This is a joint project with two other course participants in the Web Frontend Boot Camp."
    }
 ]

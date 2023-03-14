@@ -10,14 +10,6 @@ import portfolioData from '../components/portfolio.json';
 export default function PortfolioProject(props) {
 
  let projectObj = portfolioData[(parseInt(props.id)-1)];
- let githubURL ="";  
- if (projectObj.githubURL) {
-   githubURL = `<br/><a href={` 
-      + githubURL 
-      + `} target="_blank" alt={` 
-      + projectObj.projName 
-      + `} className="accordionLink"><i className="fa-brands fa-github"></i> GitGub Details<i className="fa fa-chevron-circle-right" aria-hidden="true"></i><i className="fa fa-chevron-circle-right" aria-hidden="true"></i><i className="fa fa-chevron-circle-right" aria-hidden="true"></i>`
- }
 
  console.log("projectObj:", projectObj);
 
@@ -45,11 +37,13 @@ export default function PortfolioProject(props) {
                   <p className="aligntextCenter">Created with {projectObj.tech}</p>
                   <p className="aligntextCenter">{projectObj.descLong}</p>
 
-                  </div>
+                  </div>   
 
                   <div className="alignRight">   
-                     <a href={projectObj.projURL} target="_blank" alt={projectObj.projName} className="accordionLink">{projectObj.projName} <i className="fa fa-chevron-circle-right" aria-hidden="true"></i><i className="fa fa-chevron-circle-right" aria-hidden="true"></i><i className="fa fa-chevron-circle-right" aria-hidden="true"></i></a>
-                     {githubURL}
+                     <a href={projectObj.projURL} target="_blank" alt={projectObj.projName} className="pageNavA">{projectObj.projName} <i className="fa fa-chevron-circle-right" aria-hidden="true"></i><i className="fa fa-chevron-circle-right" aria-hidden="true"></i><i className="fa fa-chevron-circle-right" aria-hidden="true"></i></a> <br/>
+                     {projectObj.isGithubURL && (<a href={projectObj.githubURL} className="pageNavA"><i className="fa-brands fa-github"></i>GitGub Details <i className="fa fa-chevron-circle-right" aria-hidden="true"></i><i className="fa fa-chevron-circle-right" aria-hidden="true"></i><i className="fa fa-chevron-circle-right" aria-hidden="true"></i></a>)} <br/> 
+                     <a href="/portfolio" target="_blank" alt="Portfolio main page" className="pageNavA">back to portfolio <i className="fa-solid fa-person-walking-arrow-loop-left"></i></a>
+
                   </div>
                </div>
             </div>         

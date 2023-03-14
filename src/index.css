@@ -174,11 +174,16 @@ p a:hover
   color: var(--colorOrange);
 }
 
-a > .accordionLink {
+
+div .alignRight a.pageNavA  {
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
+  color: var(--colorCharcoalDarker);
 }
 
+div .alignRight a:hover.pageNavA  {
+  text-shadow: 2px 2px var(--colorLemon);
+}
 
 .iconColor {
   color: var(--colorPinkDark);
