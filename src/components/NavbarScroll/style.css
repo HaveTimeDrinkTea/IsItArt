@@ -15,7 +15,7 @@
    text-decoration: none;
 }
 
-.aHoverTopNavLogo,
+.aHoverTopNavLogo:hover,
 .aHoverTopNav:hover {
    text-decoration: none;
    color: var(--colorYellowBright);

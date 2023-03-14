@@ -13,21 +13,19 @@ export default function PortfolioArt() {
       <>
       <Container>
       <Row>
-      <Col size="sm-6">
-         <div className="homeBkGr lhsH">
-            <div className="typewriterSub">
+         <Col size="sm-6">
+            <div className="homeBkGr lhsH">
+               <div className="typewriterSub">
                <h1>Illustrations</h1>
+               </div>
+               <br/><br/>
+               <HomeRoles roleType="a sample of my digital artworks" />
             </div>
-            <br/><br/>
-            <HomeRoles roleType="a sample of my digital artworks" />
-         </div>
          </Col>
          <Col size="sm-6">  
          <div className="rhsContainer mx-auto"> 
          <br/><br/>
          <CarouselArt />
-
-
          </div>
             
          
