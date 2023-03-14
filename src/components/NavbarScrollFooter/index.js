@@ -10,7 +10,7 @@ export default function NavbarScrollFooter() {
   return (
     <Navbar expand="lg" fixed="bottom" className="navbarScrollFooter justify-content-end">
       <Container fluid>
-        <Navbar.Brand href="/" className="aHoverFooterLogo"><i class="fa fa-copyright" aria-hidden="true"></i> 2023 | Pei Wang #Kindfulness</Navbar.Brand>
+        <Navbar.Brand href="/" className="aHoverFooterLogo"><i className="fa fa-copyright" aria-hidden="true"></i> 2023 | Pei Wang #Kindfulness</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
@@ -18,10 +18,10 @@ export default function NavbarScrollFooter() {
             style={{ maxHeight: '190px' }}
             navbarScroll
           >
-            <Nav.Link href="/contact" className="aHoverFooterNav"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i> eMail</Nav.Link>
-            <Nav.Link href="https://www.github.com/havetimedrinktea/" className="aHoverFooterNav"><i class="fa fa-github-square fa-2x" aria-hidden="true"></i> GitHub</Nav.Link>
-            <Nav.Link href="https://www.linkedin.com/in/teanamu" className="aHoverFooterNav"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i> LinkedIn</Nav.Link>
-            <Nav.Link href="https://www.facebook.com/havetimedrinktea/" className="aHoverFooterNav"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i> Facebook</Nav.Link>
+            <Nav.Link href="/contact" className="aHoverFooterNav"><i className="fa fa-envelope fa-2x" aria-hidden="true"></i> eMail</Nav.Link>
+            <Nav.Link href="https://www.github.com/havetimedrinktea/" className="aHoverFooterNav"><i className="fa fa-github-square fa-2x" aria-hidden="true"></i> GitHub</Nav.Link>
+            <Nav.Link href="https://www.linkedin.com/in/teanamu" className="aHoverFooterNav"><i className="fa fa-linkedin-square fa-2x" aria-hidden="true"></i> LinkedIn</Nav.Link>
+            <Nav.Link href="https://www.facebook.com/havetimedrinktea/" className="aHoverFooterNav"><i className="fa fa-facebook-square fa-2x" aria-hidden="true"></i> Facebook</Nav.Link>
 
           </Nav>
         </Navbar.Collapse>

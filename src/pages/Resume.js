@@ -27,7 +27,7 @@ export default function Resume(props) {
                <div className="rhsHome">
                   <img src={require("../components/assets/cv_peiwang_webdev.png")} alt="resume" width="500px"/>
                   <div className="alignRight">
-               <a href="https://drive.google.com/file/d/1cUTJ86YpZNDiZScHxEQTLiVtrcXWdZH0/view?usp=sharing" target="_blank" rel="noreferrer"><i class="fa-solid fa-download iconColorSize2"></i><i class="fa-solid fa-file-pdf iconColorSize2 "></i></a>
+               <a href="https://drive.google.com/file/d/1cUTJ86YpZNDiZScHxEQTLiVtrcXWdZH0/view?usp=sharing" target="_blank" rel="noreferrer"><i className="fa-solid fa-download iconColorSize2"></i><i className="fa-solid fa-file-pdf iconColorSize2 "></i></a>
                </div>
                </div>
             </Col>
