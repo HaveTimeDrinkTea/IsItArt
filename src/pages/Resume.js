@@ -25,9 +25,9 @@ export default function Resume(props) {
             </Col>
             <Col size="sm-6">  
                <div className="rhsHome">
-                  <img src={require("../components/assets/cv_peiwang_webdev.jpg")} alt="resume" width="500px"/>
+                  <img src={require("../components/assets/cv_peiwang_webdev.png")} alt="resume" width="500px"/>
                   <div className="alignRight">
-               <a href="../components/assets/cv_peiwang_webdev.pdf"><i class="fa-solid fa-download iconColorSize2"></i><i class="fa-solid fa-file-pdf iconColorSize2 "></i></a>
+               <a href="https://drive.google.com/file/d/1cUTJ86YpZNDiZScHxEQTLiVtrcXWdZH0/view?usp=sharing" target="_blank" rel="noreferrer"><i class="fa-solid fa-download iconColorSize2"></i><i class="fa-solid fa-file-pdf iconColorSize2 "></i></a>
                </div>
                </div>
             </Col>
