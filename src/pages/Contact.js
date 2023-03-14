@@ -49,7 +49,7 @@ export default function Contact() {
          <Row>
             <Col size="sm-6">
             <div className="homeBkGr lhsH">
-            <div class="typewriter">
+            <div className="typewriterSub">
             <h1>Contact</h1>
             </div>
             <br/><br/>
@@ -59,7 +59,7 @@ export default function Contact() {
             </div>
             </Col>
             <Col size="sm-6">  
-               <div class="rhsHome">
+               <div className="rhsHome">
                <form onSubmit={handleSubmit}>
                   <input name="name" onChange={handleChange} type="text" placeholder="Your Name" />
 

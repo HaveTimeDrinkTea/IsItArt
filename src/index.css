@@ -174,12 +174,28 @@ a:hover {
   font-size: 1.5rem;
 }
 
-.iconColorSize {
+.iconColorSize
+, .iconColorSize2 {
   color: var(--colorPinkDark);
   font-size: 2rem;
   font-weight: bold;
   padding-right: 
   0.5rem;
+}
+
+.iconColorSize {
+  color: var(--colorPinkDark);
+}
+
+a .iconColorSize2 {
+  margin-top: 1rem;
+  color: var(--colorWhite);
+  text-shadow: 2px 2px rgba(95, 98, 58, 0.2);;
+}
+
+a:hover .iconColorSize2 {
+  color: var(--colorPink);
+  text-shadow: 2px 2px rgba(95, 98, 58, 0.2);;
 }
 
 
@@ -368,6 +384,9 @@ button {
   background-color: rgba(95, 98, 58, 0.2);
 }
 
+.alignRight {
+  text-align: right !important;
+}
 
 /* Icon colours */
 

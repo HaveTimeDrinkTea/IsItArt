@@ -12,7 +12,7 @@ export default function Home(props) {
 
         <Col size="sm-6">
           <div className="homeBkGr lhsH">
-            <div class="typewriter">
+            <div className="typewriter">
             <h1>Pei Wang</h1>
             </div>
 
@@ -24,7 +24,7 @@ export default function Home(props) {
           
         </Col>
         <Col size="sm-6">  
-          <div class="rhsHome">
+          <div className="rhsHome">
             <span class="opener"> <i class="fa fa-code" aria-hidden="true"></i>A "born-again" dabler of all things web<i class="fa fa-code" aria-hidden="true"></i> </span> <br/>I prefer simpler designs and unclutteredness. I am a self-proclaimed <strong><em><u>#cleanfluencer</u></em></strong> and disciple of Marie Kondo's spark joy method. Things should spark joy and that include web design. 
             <br/><br/>
             <span class="opener"> <i class="fa fa-code" aria-hidden="true"></i>A meditator at heart <i class="fa fa-code" aria-hidden="true"></i></span> <br/>I try to live a life of <strong><em><u>#kindfulness</u></em></strong> in a world where kindness for all beings comes first. That includes using technology and the web in all sorts of ways to improve all our lives. Insight meditation gives me the opportunity to revisit my thoughts (design or otherwise) and helps me to focus on what is important.  Undeniably useful skills for a web designer.

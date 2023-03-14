@@ -15,7 +15,7 @@ export default function PortfolioArt() {
       <Row>
       <Col size="sm-6">
          <div className="homeBkGr lhsH">
-            <div class="typewriterSub">
+            <div className="typewriterSub">
                <h1>Illustrations</h1>
             </div>
             <br/><br/>

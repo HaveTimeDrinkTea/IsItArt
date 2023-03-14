@@ -12,7 +12,7 @@ export default function Skills(props) {
 
         <Col size="sm-6">
           <div className="homeSk lhsH">
-            <div class="typewriter">
+            <div className="typewriterSub">
             <h1>skills</h1>
             </div>
 
@@ -26,7 +26,7 @@ export default function Skills(props) {
           
         </Col>
         <Col size="sm-6">  
-          <div class="rhsHome">
+          <div className="rhsHome">
             <span class="opener"> <i class="fa fa-code" aria-hidden="true"></i> tech competencies <i class="fa fa-code" aria-hidden="true"></i> </span> <br/>
             <i class="fa-brands fa-js bgJScript"></i> 
             <i class="fa-brands fa-html5 bgHTML5"></i>
