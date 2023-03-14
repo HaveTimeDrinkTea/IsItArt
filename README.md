@@ -4,7 +4,7 @@
 
 This project is part of the Frontend Dev Boot Camp course challenge for the thirteen week "Modern Development with React: React Portfolio". 
 
-It requires us to use React,  Bootstrap (or its equivalent), navigation using React Router  and dynamic rendering
+It requires us to use React,  Bootstrap (or its equivalent), navigation using React Router and dynamic rendering to create a portfolio website. The Acceptance Criteria below details all that is required of a professional portfolio site.
 
 
 ### Methodology: Pseudo Code
@@ -84,11 +84,11 @@ SO THAT I can show to potential employers to demonstrate my skills
 
 
 * Portfolio Accordion Page
-![screen dump - Portfolio Accordion Page](public/images/reactPortfolio1.png)
+![screen dump - Portfolio Accordion Page](public/images/reactPortfolio2.png)
 
 
 * Portfolio Contact Page
-![screen dump - Portfolio Contact Page](public/images/reactPortfolio1.png)
+![screen dump - Portfolio Contact Page](public/images/reactPortfolio3.png)
 
 
 
