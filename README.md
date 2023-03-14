@@ -79,18 +79,23 @@ SO THAT I can show to potential employers to demonstrate my skills
 
 ### Screen Dumps:
 
+* Portfolio Home Page
+![screen dump - Home Page](public/images/reactPortfolio1.png)
 
-![screen dump - Home Page](public/images/isitart1.png)
 
-![screen dump - Portfolio Accordion Page](public/images/isitart2.png)
+* Portfolio Accordion Page
+![screen dump - Portfolio Accordion Page](public/images/reactPortfolio1.png)
 
-![screen dump - Portfolio CarouselPage](public/images/isitart3.png)
+
+* Portfolio Contact Page
+![screen dump - Portfolio Contact Page](public/images/reactPortfolio1.png)
 
 
 
 ## Credits
 
 * Type writer text effects from [w3docs](https://www.w3docs.com/snippets/css/how-to-create-a-typewriter-text-with-only-css.html)
+* Mr. JD Tadlock's React video walkthroughs on GitHub
 
 
 

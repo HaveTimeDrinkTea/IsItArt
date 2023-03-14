@@ -97,12 +97,12 @@ export default function Contact() {
             <HomeRoles roleType="cups of 🍵" />         
             <div>
                <h3 className="homeRolesContact">
-                  <Nav.Link href="https://www.github.com/havetimedrinktea/" className="aHoverFooterNav"><i class="fa fa-github-square" aria-hidden="true"></i> GitHub</Nav.Link>
+                  <Nav.Link href="https://www.github.com/havetimedrinktea/" className="aHoverFooterNav"><i className="fa fa-github-square" aria-hidden="true"></i> GitHub</Nav.Link>
                </h3>
             </div>           
             <div>
                <h3 className="homeRolesContact">
-                  <Nav.Link href="https://www.linkedin.com/in/teanamu" className="aHoverFooterNav"><i class="fa fa-linkedin-square" aria-hidden="true"></i> LinkedIn</Nav.Link>
+                  <Nav.Link href="https://www.linkedin.com/in/teanamu" className="aHoverFooterNav"><i className="fa fa-linkedin-square" aria-hidden="true"></i> LinkedIn</Nav.Link>
                </h3>
             </div>
             </div>
