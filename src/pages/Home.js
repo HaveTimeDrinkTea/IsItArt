@@ -4,7 +4,7 @@ import Row from '../components/Row';
 import Col from '../components/Col';
 import HomeRoles from '../components/HomeRoles';
 
-function Home(props) {
+export default function Home(props) {
   return (
     <> 
     <Container>
@@ -39,5 +39,3 @@ function Home(props) {
 
   )
 }
-
-export default Home;

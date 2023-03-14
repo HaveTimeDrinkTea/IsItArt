@@ -11,7 +11,7 @@ export default function Skills(props) {
       <Row>
 
         <Col size="sm-6">
-          <div className="homeBkGr lhsH">
+          <div className="homeSk lhsH">
             <div class="typewriter">
             <h1>skills</h1>
             </div>
@@ -21,16 +21,33 @@ export default function Skills(props) {
         <HomeRoles roleType="graphics" />
         <HomeRoles roleType="accountancy" />
         <HomeRoles roleType="consultancy" />
+        <HomeRoles roleType="languages" />
           </div>
           
         </Col>
         <Col size="sm-6">  
           <div class="rhsHome">
-            <span class="opener"> <i class="fa fa-code" aria-hidden="true"></i> tech competencies <i class="fa fa-code" aria-hidden="true"></i> </span> <br/><i class="fa-brands fa-js iconColor"></i>
+            <span class="opener"> <i class="fa fa-code" aria-hidden="true"></i> tech competencies <i class="fa fa-code" aria-hidden="true"></i> </span> <br/>
+            <i class="fa-brands fa-js bgJScript"></i> 
+            <i class="fa-brands fa-html5 bgHTML5"></i>
+            <i class="fa-brands fa-css3 bgCSS3"></i> 
+            <i class="fa-brands fa-node-js bgNode"></i> 
+            <i class="fa-brands fa-react bgReact"></i> 
+            <i class="fa-brands fa-swift bgSwift "></i>
+            <i class="fa-brands fa-github bgGitHub"></i>             
+            <i class="fa-brands fa-git bgGit"></i> 
+            <i class="fa-brands fa-bootstrap bgBootstrap"></i>
+            <i class="fa-brands fa-wordpress bgWordpress"></i> <br/>
+            <i class="fa-solid fa-database bgMySQL"></i> mySQL &amp; Oracle DBA <i class="fa-solid fa-cart-shopping bgWoo"></i> Woocommerce
+
             <br/><br/>
-            <span class="opener"> <i class="fa fa-code" aria-hidden="true"></i> digital illustrations <i class="fa fa-code" aria-hidden="true"></i></span> <br/>I try to live a life of <strong><em><u>#kindfulness</u></em></strong> in a world where kindness for all beings comes first. That includes using technology and the web in all sorts of ways to improve all our lives. Insight meditation gives me the opportunity to revisit my thoughts (design or otherwise) and helps me to focus on what is important.  Undeniably useful skills for a web designer.
+            <span class="opener"> <i class="fa fa-code" aria-hidden="true"></i> digital illustrations <i class="fa fa-code" aria-hidden="true"></i></span> <br/> I started digital illustrations during the pandemic and have been drawing on <strong><em>Procreate</em></strong> and <strong><em>Affinity Designer</em></strong> apps since. I am learning <strong><em>Affinity Photos</em></strong>  and <strong><em>Affinity Publisher</em></strong>. My art works are used mainly in the social media marketing for teanamu.com.
             <br/><br/>
-            <span class="opener"> <i class="fa fa-code" aria-hidden="true"></i> business management & accountancy<i class="fa fa-code" aria-hidden="true"></i> </span> <br/>I am a learner and teacher of tea for over 20 years. Through the art of tea, I have learnt the importance of patience and the smooth flow of things. I treasure the tea ceremony motto of <strong><em>ichigo-ichie</em></strong> "<strong>一 期 一 会</strong>" (<em>lit. “for this time only"</em>)。 This is a concept of treasuring <strong>the unrepeatable nature of a moment</strong>. In web design, the said moment is a very short time where a user is either attracted to a web page or be turned away from it.  A well-designed website is made for the user; not at the whims of the web designer.
+            <span class="opener"> <i class="fa fa-code" aria-hidden="true"></i> business management & accountancy <i class="fa fa-code" aria-hidden="true"></i> </span> <br/>I am a graduate of B.Acc and have over 20 years of accountancy business management experience. I currently own and run a micro-business at teanamu limited.
+            <br/><br/>
+            <span class="opener"> <i class="fa fa-code" aria-hidden="true"></i> consultancy & data mining <i class="fa fa-code" aria-hidden="true"></i> </span> <br/> I worked with Oracle Singapore as a Oracle Financials consultant and later in data-mining and manager with a UK telecomms company and a large UK retailer.
+            <br/><br/>
+            <span class="opener"> <i class="fa fa-code" aria-hidden="true"></i> languages <i class="fa fa-code" aria-hidden="true"></i> </span> <br/> I am fluent in English and Chinese. I can also speak and read beginner's level Japanese (JLPT Level N4).
           </div>
         </Col>
 

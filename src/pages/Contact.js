@@ -1,12 +1,8 @@
-
-//--Pw for inline styling, need to pass in an object for the css. Note that there are {} inside {}. The outer {} is JSX and the inner {} is style object
-
-//--PW the style object will style this component only
-
+import React, { useState } from "react";
 import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
-import { useState } from "react";
+import HomeRoles from '../components/HomeRoles';
 
 const styles ={
    header: {
@@ -51,12 +47,19 @@ export default function Contact() {
       <>
       <Container>
          <Row>
-            <Col size="sm-4">
-               <h1 style={ {color : 'blue', textAlign: 'center', margin: '20px 0',} }>Contact!</h1>
-
-               <h2 style={styles.header}>Let's Chat Over a Cuppa 🍵!</h2>
+            <Col size="sm-6">
+            <div className="homeBkGr lhsH">
+            <div class="typewriter">
+            <h1>Contact</h1>
+            </div>
+            <br/><br/>
+            <HomeRoles roleType="Let's chat" />
+            <HomeRoles roleType="over cups" />
+            <HomeRoles roleType="of tea 🍵" />
+            </div>
             </Col>
-            <Col size="sm-8">  
+            <Col size="sm-6">  
+               <div class="rhsHome">
                <form onSubmit={handleSubmit}>
                   <input name="name" onChange={handleChange} type="text" placeholder="Your Name" />
 
@@ -65,12 +68,8 @@ export default function Contact() {
                   <textarea name="message" onChange={handleChange} cols="30" rows="10" placeholder="Your Message"></textarea>
                   
                   <button style={styles.submitBtn}>Submit</button>
-                  
-                  {/* The following is a bit of fun to show that as a user types the email, it outputs it to the <p>! */}
-                  <p>Name: {formData.name}</p>
-                  <p>Email: {formData.email}</p>
-                  <p>Message: {formData.message}</p>
                </form>
+               </div>
             </Col>
          </Row>
       </Container>
