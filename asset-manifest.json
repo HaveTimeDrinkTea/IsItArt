@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/isitart/static/css/main.d334d3d6.css",
+    "main.js": "/isitart/static/js/main.4201b661.js",
+    "static/media/cover.jpg": "/isitart/static/media/cover.7a226c29f501d51bd173.jpg",
+    "static/media/pink_bonsai.png": "/isitart/static/media/pink_bonsai.ab1e98d62229026c6afa.png",
+    "static/media/home.png": "/isitart/static/media/home.4ce6d9351d31040091b0.png",
+    "static/media/cv_peiwang_webdev.png": "/isitart/static/media/cv_peiwang_webdev.04c23ecd55547b97effb.png",
+    "static/media/dragonfly_pot.png": "/isitart/static/media/dragonfly_pot.694f23d8d8607cceca09.png",
+    "static/media/teapot_cups.png": "/isitart/static/media/teapot_cups.873e0f0954cf7e662cde.png",
+    "static/media/tea_utensils.png": "/isitart/static/media/tea_utensils.7eb2490259b50bdabc06.png",
+    "static/media/bonsai_man.png": "/isitart/static/media/bonsai_man.24cb7ec635eaca6f7433.png",
+    "static/media/webdeveloper_peiwang2.png": "/isitart/static/media/webdeveloper_peiwang2.507fec92a60ba385d502.png",
+    "static/media/webdeveloper_peiwang.png": "/isitart/static/media/webdeveloper_peiwang.349812f514b0876551ca.png",
+    "index.html": "/isitart/index.html",
+    "main.d334d3d6.css.map": "/isitart/static/css/main.d334d3d6.css.map",
+    "main.4201b661.js.map": "/isitart/static/js/main.4201b661.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d334d3d6.css",
+    "static/js/main.4201b661.js"
+  ]
+}
