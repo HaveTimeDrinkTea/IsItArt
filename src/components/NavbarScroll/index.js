@@ -10,7 +10,14 @@ export default function NavbarScroll() {
   return (
     <Navbar expand="lg" className="navbarScroll fixed-top justify-content-end">
       <Container fluid>
-        <Navbar.Brand href="/" className="aHoverTopNavLogo">HaveTimeDrinkTea</Navbar.Brand>
+        <Navbar.Brand href="/" className="aHoverTopNavLogo">
+          HaveTimeDrinkTea <br/>
+          <div className="avatar_container">
+            <div className="avatar_middle">
+               <img src={require("./webdeveloper_peiwang2.png")} alt="another avatar of Pei Wang" class="avatar_image avatar" />
+            </div>
+         </div>  
+          </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
