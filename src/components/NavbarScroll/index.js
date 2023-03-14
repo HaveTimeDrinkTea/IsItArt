@@ -14,7 +14,7 @@ export default function NavbarScroll() {
           HaveTimeDrinkTea <br/>
           <div className="avatar_container">
             <div className="avatar_middle">
-               <img src={require("./webdeveloper_peiwang2.png")} alt="another avatar of Pei Wang" class="avatar_image avatar" />
+               <img src={require("./webdeveloper_peiwang2.png")} alt="another avatar of Pei Wang" className="avatar_image avatar" />
             </div>
          </div>  
           </Navbar.Brand>
