@@ -3,19 +3,26 @@
    margin: 0 !important;
    background-color: rgba(0, 71, 171, 0.8);
    color: var(--colorWhite);
+   font-size: 1.5rem;
 }
 
 .navbarScroll a {
    color: var(--colorWhite);
 }
 
+.aHoverTopNavLogo,
 .aHoverTopNav {
    text-decoration: none;
 }
 
+.aHoverTopNavLogo,
 .aHoverTopNav:hover {
    text-decoration: none;
    color: var(--colorYellowBright);
+}
+
+.aHoverTopNavLogo {
+   font-size: 2rem;
 }
 
 

@@ -62,8 +62,9 @@
   --colorPinkDark: rgb(138, 66, 106);
   --colorBrown1: #be7e4a;
   --colorSeaGreenLight: #20b2aa;
+  --colorSeaGreenDark: #9551a4;
 
-  --tempBrownDark: #440c25;
+  --colorRedBrownDark: #a33265;
   --tempRed: #9e1e49;
   --tempOrangeDark: #a64a4b;
   --tempOrange: #b57852;
@@ -111,7 +112,7 @@ body {
 }
 
 .lhsH {
-  padding-top: 2rem;
+  padding-top: 5rem;
   text-align: center;
   color: var(--colorElectricBlue);
   font-size: 3rem;
@@ -119,17 +120,31 @@ body {
 
 h1 {
   padding-top: 5rem;
-  font-size: 2em;
+  font-size: 1.9em;
   text-align: right;
   float: right;
 }
 
 
 h3 {
-  text-align: center;
+  text-align: left;
   color: var(--colorElectricBlue);
   font-size: 3rem;
   padding: 0.8rem;
+  padding-left: 3rem;
+}
+
+
+h3.homeRoles {
+  font-family: monospace;
+  text-align: left;
+  color: var(--colorPink);
+  text-shadow: 2px 2px #fffcfc;
+  font-size: 3rem;
+  font-weight: bold;
+  padding: 0.8rem;
+  padding-left: 3rem;
+  background-color: rgba(95, 98, 58, 0.2);
 }
 
 h4 {
@@ -159,6 +174,31 @@ a:hover {
   font-size: 1.5rem;
 }
 
+.iconColorSize
+, .iconColorSize2 {
+  color: var(--colorPinkDark);
+  font-size: 2rem;
+  font-weight: bold;
+  padding-right: 
+  0.5rem;
+}
+
+.iconColorSize {
+  color: var(--colorPinkDark);
+}
+
+a .iconColorSize2 {
+  margin-top: 1rem;
+  color: var(--colorWhite);
+  text-shadow: 2px 2px rgba(95, 98, 58, 0.2);;
+}
+
+a:hover .iconColorSize2 {
+  color: var(--colorPink);
+  text-shadow: 2px 2px rgba(95, 98, 58, 0.2);;
+}
+
+
 .blink {
   animation: blink-animation 3s steps(5, start) infinite;
   -webkit-animation: blink-animation 3s steps(5, start) infinite;
@@ -176,11 +216,26 @@ a:hover {
 
 .typewriter h1 {
   font-family: monospace;
-  letter-spacing: .17em;
+  padding-top: 0;
+  letter-spacing: .13em;
   margin: 0 auto;
   overflow: hidden;
   white-space: nowrap;
-  border-right: .17em solid var(--colorPinkDark);
+  border-right: 0.3rem solid var(--colorPinkDark);
+  animation: 
+      typing 3.5s steps(30, end), 
+      blinking-cursor 2s step-end infinite;
+}
+
+.typewriterSub h1 {
+  font-family: monospace;
+  font-size: 3rem;
+  padding-top: 0;
+  letter-spacing: .13em;
+  margin: 2rem auto;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 0.3rem solid var(--colorPinkDark);
   animation: 
       typing 3.5s steps(30, end), 
       blinking-cursor 2s step-end infinite;
@@ -238,16 +293,64 @@ button {
   border: 2px solid teal;
   font-size: .95rem;
   cursor: pointer;
-} 
+}
 
+/* home Page */
+.opener {
+  font-weight: bold;
+  font-size: large;
+  color: var(--colorElectricBlue90);
+}
 
 .homeBkGr {
   background-image: url('../public/images/home.png') !important;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:contain;
   background-position: center;
   height: 100vh;
 }
+
+.homeWD {
+  background-image: url('../public/images/home.png') !important;
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-position: center;
+  height: 100vh;
+}
+
+.homeDI {
+  background-image: url('../public/images/home.png') !important;
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-position: center;
+  height: 100vh;
+}
+
+.homeSk {
+  background-image: url('../public/images/home.png') !important;
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-position: center;
+  height: 100vh;
+}
+
+.homeRe {
+  background-image: url('../public/images/home.png') !important;
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-position: center;
+  height: 100vh;
+}
+
+.homeCn {
+  background-image: url('../public/images/home.png') !important;
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-position: center;
+  height: 100vh;
+}
+
+
 
 .center {
   display: block;
@@ -262,7 +365,7 @@ button {
   width: 100%;
 }
 
-.rhs {
+.rhsPortfolioArt {
   margin: 0 auto;
   margin-top: 5rem;
   display: flex;
@@ -270,3 +373,94 @@ button {
   justify-content: center;
   width: 100%;
 }
+
+.rhsHome {
+  margin: 0 auto;
+  font-size: 1.1rem;
+  color: var(--colorCharcoalDarker);
+  margin-top: 5rem;
+  width: 100%;
+  padding: 1rem;
+  background-color: rgba(95, 98, 58, 0.2);
+}
+
+.alignRight {
+  text-align: right !important;
+}
+
+/* Icon colours */
+
+.bgHTML5
+, .bgCSS3 
+, .bgWordpress
+, .bgJScript
+, .bgWoo 
+, .bgMySQL
+, .bgReact
+, .bgNode
+, .bgSwift
+, .bgGitHub
+, .bgSwift 
+, .bgBootstrap
+, .bgGit {
+
+  font-size: 2rem;
+  font-weight: bold;
+  padding-right: 
+  0.5rem;
+}
+
+
+
+.bgHTML5 {
+  color: #e34c26;
+}
+
+.bgCSS3 {
+  color: #264de4;
+}
+
+.bgWordpress {
+  color: rgb(0, 116, 156);
+}
+
+.bgJScript {
+  color: #f0db4f;
+}
+
+.bgWoo {
+  color: #3C2861;
+}
+
+.bgMySQL {
+  color: #f29111;
+}
+
+.bgReact {
+  color: #61DBFB;
+}
+
+.bgNode {
+  color: #44883e;
+}
+
+.bgSwift {
+  color: var(--colorOrange);
+}
+
+.bgGitHub {
+  color: #6e5494;
+}
+
+.bgGit {
+  color: #3E2C00;
+}
+
+.bgBootstrap {
+  color: #563d7c;
+}
+
+.bgAffinity {
+  color:  #fc9cb4;
+}
+

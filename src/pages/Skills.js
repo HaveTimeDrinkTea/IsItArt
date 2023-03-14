@@ -1,43 +1,59 @@
+import React from 'react';
 import Container from '../components/Container';
 import Row from '../components/Row';
 import Col from '../components/Col';
-import Main from '../components/Main';
+import HomeRoles from '../components/HomeRoles';
 
-function Skills(props) {
+export default function Skills(props) {
   return (
     <> 
     <Container>
-    <div>
       <Row>
 
         <Col size="sm-6">
-          <div className="homeBkGr">
+          <div className="homeSk lhsH">
+            <div className="typewriterSub">
+            <h1>skills</h1>
+            </div>
 
-          <h1>Pei Wang</h1>
+          <br/><br/>
+        <HomeRoles roleType="technologies" />
+        <HomeRoles roleType="graphics" />
+        <HomeRoles roleType="accountancy" />
+        <HomeRoles roleType="consultancy" />
+        <HomeRoles roleType="languages" />
           </div>
           
         </Col>
         <Col size="sm-6">  
-        <h1 className="main-header">Is It Art?</h1>
-         <p>
-            Fat Free Fat. Kombucha, tempeh tofu Kaya toast, forage Pu-Erh tea freegan. Distillery lo-fi umami, tempura, Hainanese chicken rice. 
-         </p>
-         <p>
-            Bitters seitan art kitsch is sriracha. Hammock ichigo-ichie.  Fabulous!
-            SHADE! Sugarless sugar and extinction rebellion thunder cats dreamcatcher wabi sabi. Gongfu tea ceremony is kale chips. Don’t eat sugar. Brexit is a unicorn.  Is la croix the best bonsai?  
-         </p>
-         <p>
-            But is it art?  WERK!
-         </p>
+          <div className="rhsHome">
+            <span class="opener"> <i class="fa fa-code" aria-hidden="true"></i> tech competencies <i class="fa fa-code" aria-hidden="true"></i> </span> <br/>
+            <i class="fa-brands fa-js bgJScript"></i> 
+            <i class="fa-brands fa-html5 bgHTML5"></i>
+            <i class="fa-brands fa-css3 bgCSS3"></i> 
+            <i class="fa-brands fa-node-js bgNode"></i> 
+            <i class="fa-brands fa-react bgReact"></i> 
+            <i class="fa-brands fa-swift bgSwift "></i>
+            <i class="fa-brands fa-github bgGitHub"></i>             
+            <i class="fa-brands fa-git bgGit"></i> 
+            <i class="fa-brands fa-bootstrap bgBootstrap"></i>
+            <i class="fa-brands fa-wordpress bgWordpress"></i> <br/>
+            <i class="fa-solid fa-database bgMySQL"></i> mySQL &amp; Oracle DBA <i class="fa-solid fa-cart-shopping bgWoo"></i> Woocommerce
+
+            <br/><br/>
+            <span class="opener"> <i class="fa fa-code" aria-hidden="true"></i> digital illustrations <i class="fa fa-code" aria-hidden="true"></i></span> <br/> I started digital illustrations during the pandemic and have been drawing on <strong><em>Procreate</em></strong> and <strong><em>Affinity Designer</em></strong> apps since. I am learning <strong><em>Affinity Photos</em></strong>  and <strong><em>Affinity Publisher</em></strong>. My art works are used mainly in the social media marketing for teanamu.com.
+            <br/><br/>
+            <span class="opener"> <i class="fa fa-code" aria-hidden="true"></i> business management & accountancy <i class="fa fa-code" aria-hidden="true"></i> </span> <br/>I am a graduate of B.Acc and have over 20 years of accountancy business management experience. I currently own and run a micro-business at teanamu limited.
+            <br/><br/>
+            <span class="opener"> <i class="fa fa-code" aria-hidden="true"></i> consultancy & data mining <i class="fa fa-code" aria-hidden="true"></i> </span> <br/> I worked with Oracle Singapore as a Oracle Financials consultant and later in data-mining and manager with a UK telecomms company and a large UK retailer.
+            <br/><br/>
+            <span class="opener"> <i class="fa fa-code" aria-hidden="true"></i> languages <i class="fa fa-code" aria-hidden="true"></i> </span> <br/> I am fluent in English and Chinese. I can also speak and read beginner's level Japanese (JLPT Level N4).
+          </div>
         </Col>
 
       </Row>
-
-      </div>
     </Container>
     </>
 
   )
 }
-
-export default Skills;

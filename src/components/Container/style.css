@@ -3,4 +3,11 @@
    padding-top: 0rem !important;
    padding-left: 0 !important;
    margin-left: 0 !important;
+   width: 100vw;
+
+}
+
+.containerCenter {
+   margin: 0 auto !important;
+
 }
