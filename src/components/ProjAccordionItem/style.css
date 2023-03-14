@@ -24,6 +24,5 @@ a:hover > .accordionLink {
 }
 
 .accordion-body {
-   background-color: --var(--colorOrange);
-
+   background-color: --var(--colorOrange) !important;
 }

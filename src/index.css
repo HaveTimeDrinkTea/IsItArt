@@ -125,6 +125,12 @@ h1 {
   float: right;
 }
 
+h2 {
+  color: var(--colorElectricBlue);
+  font-size: 2rem;
+  padding: 0.8rem;
+  padding-left: 3rem;
+}
 
 h3 {
   text-align: left;
@@ -133,7 +139,6 @@ h3 {
   padding: 0.8rem;
   padding-left: 3rem;
 }
-
 
 h3.homeRoles {
   font-family: monospace;
@@ -158,10 +163,22 @@ a {
   text-decoration: none;
 }
 
-a:hover {
+p a {
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+p a:hover 
+, a:hover {
   text-decoration: none;
   color: var(--colorOrange);
 }
+
+a > .accordionLink {
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
 
 .iconColor {
   color: var(--colorPinkDark);
@@ -350,8 +367,6 @@ button {
   height: 100vh;
 }
 
-
-
 .center {
   display: block;
   margin-left: auto;
@@ -387,6 +402,11 @@ button {
 .alignRight {
   text-align: right !important;
 }
+
+.aligntextCenter {
+  text-align: center !important;
+}
+
 
 /* Icon colours */
 
