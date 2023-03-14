@@ -14,9 +14,9 @@ export default function PortfolioArt() {
       <Container>
       <Row>
          <Col size="sm-6">
-            <div className="homeBkGr lhsH">
+            <div className="homeDI lhsH">
                <div className="typewriterSub">
-               <h1>Illustrations</h1>
+               <h1>gallery</h1>
                </div>
                <br/><br/>
                <HomeRoles roleType="a sample of my digital artworks" />

@@ -12,7 +12,7 @@ export default function Resume(props) {
       <Container>
          <Row>
             <Col size="sm-6">
-               <div className="homeBkGr lhsH">
+               <div className="homeRe lhsH">
                   <div className="typewriterSub">
                      <h1>Résumé</h1>
                   </div>
@@ -25,9 +25,9 @@ export default function Resume(props) {
             </Col>
             <Col size="sm-6">  
                <div className="rhsHome">
-                  <img src={require("../components/assets/cv_peiwang_webdev.jpg")} alt="resume" width="500px"/>
+                  <img src={require("../components/assets/cv_peiwang_webdev.png")} alt="resume" width="500px"/>
                   <div className="alignRight">
-               <a href="https://lh4.googleusercontent.com/TzQnqKPrNQSmthx1ihUzfBe7RmFNGzsqtai-ekJvBJ8an4T9arPSdPg6uJNZcu2yNIo=w1200-h630-p"><i class="fa-solid fa-download iconColorSize2"></i><i class="fa-solid fa-file-pdf iconColorSize2 "></i></a>
+               <a href="https://drive.google.com/file/d/1cUTJ86YpZNDiZScHxEQTLiVtrcXWdZH0/view?usp=sharing" target="_blank" rel="noreferrer"><i class="fa-solid fa-download iconColorSize2"></i><i class="fa-solid fa-file-pdf iconColorSize2 "></i></a>
                </div>
                </div>
             </Col>

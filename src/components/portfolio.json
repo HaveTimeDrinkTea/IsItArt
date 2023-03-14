@@ -3,7 +3,7 @@
       "id": "1",
       "projName": "teanamu.com",
       "projURL": "https://www.teanamu.com",
-      "imageLoc": "http://fpoimg.com/300x250?text=Preview",
+      "imageLoc": "https://lh6.googleusercontent.com/4A0eZ9rtPkERRj2XYPdgtKWy3Vmq-Yk14G27xQJ-d-BSug3rcGYkxJwcxQjyhcpTz40=w300-h250-p",
       "isGithubURL": false,
       "githubURL": "",
       "tech": "Wordpress & Woocommerce",
@@ -14,7 +14,7 @@
       "id": "2",
       "projName": "README.md Generator",
       "projURL": "https://github.com/HaveTimeDrinkTea/w11_Professional_README_Generator",
-      "imageLoc": "http://fpoimg.com/300x250?text=Preview",
+      "imageLoc": "https://lh3.googleusercontent.com/bd5pkLzwm-Za3GGRmDgNW1Urq6OqL2Tv9MwVx67Ga9_gGTiimVzfH4kVaykAsJ9fw-U=w300-h250-p",
       "isGithubURL": true,
       "githubURL": "https://github.com/HaveTimeDrinkTea/w11_Professional_README_Generator",
       "tech": "Node.js & Inquirer.js",
@@ -23,20 +23,20 @@
    },
    {
       "id": "3",
-      "projName": "README.md Generator",
-      "projURL": "https://github.com/HaveTimeDrinkTea/w11_Professional_README_Generator",
-      "imageLoc": "http://fpoimg.com/300x250?text=Preview",
+      "projName": "Wayfaring App",
+      "projURL": "https://tomking1983.github.io/wayfaring/",
       "isGithubURL": true,
-      "githubURL": "https://github.com/HaveTimeDrinkTea/w11_Professional_README_Generator",
-      "tech": "Node.js & Inquirer.js",
-      "descShort": "A command line application that generates professional README.md files with version control.",
-      "descLong": "A command line application that generates professional README.md files. In features fun interactions with user and have a version control naming system."
+      "imageLoc": "https://lh6.googleusercontent.com/4ImnPFA5aOsZfCOfAj8ZxE_6l4nQ7siAuUxIv8T64VHzT1BViP_zCNEAUiG8zUskZ7o=w300-h250-p",
+      "githubURL": "https://github.com/HaveTimeDrinkTea/w09w10_wayfaring",
+      "tech": "Bootstrap and other APIS",
+      "descShort": "A travel information website featuring details about any country and its capital city.",
+      "descLong": "A travel information website featuring details about any country and its capital city. I am responsible for the points of interest feature and the rendering of exchange rates. I also act as the main consolidator of all scripts. This is a joint project with two other course participants in the Web Frontend Boot Camp."
    },
    {
       "id": "4",
       "projName": "JScript Code Quiz App",
       "projURL": "https://havetimedrinktea.github.io/w06_JS_Code_Quiz/",
-      "imageLoc": "http://fpoimg.com/300x250?text=Preview",
+      "imageLoc": "https://lh4.googleusercontent.com/XgBBK50PD17LH0jzPv1pqHVG_syUl1BzF6YqDHFvxgM2UCHSocr1iN1RDSuPnXnZcUY=w300-h250-p",
       "isGithubURL": true,
       "githubURL": "https://github.com/HaveTimeDrinkTea/w06_JS_Code_Quiz",
       "tech": "JavaScript, HTML & CSS",
@@ -47,7 +47,7 @@
       "id": "5",
       "projName": "5-Day Weather Dashboard",
       "projURL": "https://havetimedrinktea.github.io/w08_Five_Day_Weather_Dashboard/",
-      "imageLoc": "http://fpoimg.com/300x250?text=Preview",
+      "imageLoc": "https://lh6.googleusercontent.com/WZUWp5Bc06vNuLWUJxp0xqloqb6wpSXQ0N9gylkUO1X8dFewhfjFPKtVGkTRhJiqXM0=w300-h250-p",
       "isGithubURL": true,
       "githubURL": "https://github.com/HaveTimeDrinkTea/w08_Five_Day_Weather_Dashboard",
       "tech": "Open Weather API, Bootstrap & JavaScript",
@@ -56,13 +56,13 @@
    },
    {
       "id": "6",
-      "projName": "Wayfaring App",
-      "projURL": "https://tomking1983.github.io/wayfaring/",
+      "projName": "Password Generator",
+      "projURL": "https://havetimedrinktea.github.io/w05_password_generator/",
+      "imageLoc": "https://lh3.googleusercontent.com/8X2O67Wlp2z7lIpuTXInf39O3F8-CBKSvzRmK3kCNcBkLHnJH0n7Bu-3niYpvx9GZpc=w300-h250-p",
       "isGithubURL": true,
-      "imageLoc": "http://fpoimg.com/300x250?text=Preview",
-      "githubURL": "https://github.com/HaveTimeDrinkTea/w09w10_wayfaring",
-      "tech": "Bootstrap and other APIS",
-      "descShort": "A travel information website featuring details about any country and its capital city.",
-      "descLong": "A travel information website featuring details about any country and its capital city. I am responsible for the points of interest feature and the rendering of exchange rates. I also act as the main consolidator of all scripts. This is a joint project with two other course participants in the Web Frontend Boot Camp."
-   }
+      "githubURL": "https://github.com/HaveTimeDrinkTea/w05_password_generator",
+      "tech": "JavaScript, HTML & CSS",
+      "descShort": "A cute little random password generator that allows you to select the character sets.",
+      "descLong": "A cute little random password generator that allows you to select the character sets and the length of the generated password. It provides a pre-generated password for user to copy and use the password straight away."
+   }   
 ]

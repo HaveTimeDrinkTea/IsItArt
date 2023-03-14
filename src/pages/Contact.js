@@ -48,7 +48,7 @@ export default function Contact() {
       <Container>
          <Row>
             <Col size="sm-6">
-            <div className="homeBkGr lhsH">
+            <div className="homeCn lhsH">
             <div className="typewriterSub">
             <h1>Contact</h1>
             </div>

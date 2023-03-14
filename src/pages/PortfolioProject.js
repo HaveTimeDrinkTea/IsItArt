@@ -18,7 +18,7 @@ export default function PortfolioProject(props) {
       <Container>
       <Row>
          <Col size="sm-6">
-         <div className="homeBkGr lhsH">
+         <div className="homeWD lhsH">
                <div className="typewriterSub">
                   <h1>portfolio</h1>
                </div>
