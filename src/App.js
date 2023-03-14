@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import NavbarScroll from './components/NavbarScroll/index.js';
 import NavbarScrollFooter from './components/NavbarScrollFooter/index.js';
 import Wrapper from './components/Wrapper/index.js';
+import Header from './components/Header/index.js';
 
 import Home from './pages/Home';
 import Contact from './pages/Contact';
@@ -21,7 +22,7 @@ function App() {
    return (
    <>
          <NavbarScroll />
-         {/* <Header title={title} /> */}
+         {/* <Header /> */}
          <Wrapper> 
 
          <Routes>

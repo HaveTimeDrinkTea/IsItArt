@@ -15,11 +15,21 @@ export default function Home(props) {
             <div className="typewriter">
             <h1>Pei Wang</h1>
             </div>
-
-          <br/><br/>
-        <HomeRoles roleType="web developer" />
-        <HomeRoles roleType="illustrator" />
-        <HomeRoles roleType="tea master" />
+            <br/><br/>
+            <HomeRoles roleType="web developer" />
+            <HomeRoles roleType="illustrator" />
+            <HomeRoles roleType="tea master" />
+            <div>
+              <h3 className="homeRoles">
+              <i className="fa fa-terminal iconColor" aria-hidden="true"></i>
+              <i className="fa-regular fa-lightbulb fa-spin iconColor" aria-hidden="true"></i>peekaboo!
+                <div className="avatar_container">
+                  <div className="avatar_middle">
+                    <img src={require("../../src/components/assets/webdeveloper_peiwang2.png")} alt="another avatar of Pei Wang" className="avatar_image avatar" />
+                  </div>
+                </div>  
+              </h3>
+            </div>
           </div>
           
         </Col>
