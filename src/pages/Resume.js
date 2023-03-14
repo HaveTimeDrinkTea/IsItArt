@@ -4,13 +4,6 @@ import Row from '../components/Row';
 import Col from '../components/Col';
 import HomeRoles from '../components/HomeRoles';
 
-
-
-
-
-
-
-
 export default function Resume(props) {
 
 

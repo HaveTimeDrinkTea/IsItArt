@@ -1,16 +1,14 @@
 import React from "react";
 
-function HomeRoles(props) {
+export default function HomeRoles(props) {
    return (
    <>
    <div>
    <h3 className="homeRoles">
-      <i class="fa fa-terminal iconColor" aria-hidden="true"></i>{props.roleType} 
+      <i className="fa fa-terminal iconColor" aria-hidden="true"></i>{props.roleType} 
    </h3>
    </div>
 
    </>
    )
 }
-
-export default HomeRoles;

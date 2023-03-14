@@ -2,11 +2,10 @@ import React, { useState } from 'react';
 import Container from '../components/Container';
 import Row from '../components/Row';
 import Col from '../components/Col';
-import dayjs from 'dayjs' 
 import HomeRoles from '../components/HomeRoles';
 import ProjAccordion from '../components/ProjAccordion';
 import '../index.css';
-import portfolioData from '../portfolio.json';
+import portfolioData from '../components/portfolio.json';
 
 
 export default function Portfolio() {

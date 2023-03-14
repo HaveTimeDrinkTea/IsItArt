@@ -18,7 +18,7 @@ export default function ProjAccordionItem(props) {
                   Created by {props.tech}
                </p>
                <div className="alignRight">
-               <a href={`/portfolio/project` + props.id} className="accordionLink">More <i class="fa fa-chevron-circle-right" aria-hidden="true"></i><i class="fa fa-chevron-circle-right" aria-hidden="true"></i><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></a>
+               <a href={`/portfolioproject/` + props.id} className="accordionLink">More <i className="fa fa-chevron-circle-right" aria-hidden="true"></i><i className="fa fa-chevron-circle-right" aria-hidden="true"></i><i className="fa fa-chevron-circle-right" aria-hidden="true"></i></a>
                </div>
             </Accordion.Body>
          </Accordion.Item>
