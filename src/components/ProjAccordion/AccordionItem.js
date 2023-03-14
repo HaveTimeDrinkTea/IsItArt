@@ -6,6 +6,7 @@ export default function AccordionItem(props) {
 
    return (
       <>
+         <div className="rhsPortfolioArt">
          <Accordion.Item eventKey={props.id}>
             <Accordion.Header>Portfolio Showcase {props.id}</Accordion.Header>
             <Accordion.Body>
@@ -24,6 +25,7 @@ export default function AccordionItem(props) {
                </div>
             </Accordion.Body>
          </Accordion.Item>
+         </div>
       </>
    );
 }

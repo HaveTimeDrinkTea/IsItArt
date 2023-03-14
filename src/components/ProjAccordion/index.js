@@ -2,20 +2,19 @@
 import React, { useState } from 'react';
 import Accordion from 'react-bootstrap/Accordion';
 import portfolioData from '../portfolio.json';
-import AccordionItem from './AccordionItem';
+import ProjAccordionItem from '../ProjAccordionItem';
 
-
-export default function ProjectAccordion(props) {
+export default function ProjAccordion(props) {
 
   const[portfolioList, setPortfolioList] = useState(portfolioData);
 
   return (
     <>
-      
+    <div className="rhsPortfolioArt">
       <Accordion defaultActiveKey="1" flush>
             {portfolioList.map((proj) => (
               
-                <AccordionItem
+                <ProjAccordionItem
                   id={proj.id}
                   projName={proj.projName}
                   imageLoc={proj.imageLoc}
@@ -26,7 +25,7 @@ export default function ProjectAccordion(props) {
                   
             ))}
       </Accordion>
-
+    </div>      
     </>
   );
 }

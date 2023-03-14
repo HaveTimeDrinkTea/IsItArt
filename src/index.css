@@ -150,7 +150,7 @@ h3.homeRoles {
 h4 {
   text-align: center;
   color: var(--colorElectricBlue);
-  font-size: 1rem;
+  font-size: 1.8rem;
   padding: 0.8rem;
 }
 
@@ -159,7 +159,7 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
   color: var(--colorOrange);
 }
 

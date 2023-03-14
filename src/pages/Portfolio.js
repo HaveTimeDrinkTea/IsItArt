@@ -3,8 +3,9 @@ import Container from '../components/Container';
 import Row from '../components/Row';
 import Col from '../components/Col';
 import dayjs from 'dayjs' 
-import CardProj from '../components/CardProj';
-import ProjectAccordion from '../components/ProjectAccordion';
+import HomeRoles from '../components/HomeRoles';
+import ProjAccordion from '../components/ProjAccordion';
+import '../index.css';
 import portfolioData from '../portfolio.json';
 
 
@@ -16,17 +17,20 @@ export default function Portfolio() {
       <>
       <Container>
       <Row>
-      <Col size="sm-6">
-            <div className="homeBkGr">
-               <h1>My Portfolio</h1>
-               <h4>Last updated: {dayjs().format("D MMM YYYY") }</h4>
+         <Col size="sm-6">
+            <div className="homeBkGr lhsH">
+               <div className="typewriterSub">
+                  <h1>portfolio</h1>
+               </div>
+               <br/><br/>
+               <HomeRoles roleType="apps" />
+               <HomeRoles roleType="web sites" />
             </div>
          </Col>
          <Col size="sm-6">  
-            <div className="rhs">
-
-               <ProjectAccordion />
-
+            <div className="rhsContainer mx-auto"> 
+            <br/><br/>
+            <ProjAccordion />
             </div>
          </Col>
       </Row>
