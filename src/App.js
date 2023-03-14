@@ -4,11 +4,9 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import NavbarScroll from './components/NavbarScroll/index.js';
 import NavbarScrollFooter from './components/NavbarScrollFooter/index.js';
 import Wrapper from './components/Wrapper/index.js';
-import Footer from './components/Footer/index.js';
 
 import Home from './pages/Home';
 import Contact from './pages/Contact';
-import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import PortfolioProject from './pages/PortfolioProject';
 import PortfolioArt from './pages/PortfolioArt';
@@ -29,7 +27,6 @@ function App() {
          <Routes>
                <Route path="/" element={<Home title={title}/>} />
                <Route path="/contact" element={<Contact />} />
-               <Route path="/about" element={<About />} />
                <Route path="/portfolio" element={<Portfolio />} />
                <Route path="/portfolio/project/1" element={<PortfolioProject id={"1"} />} />
                <Route path="/portfolioart" element={<PortfolioArt />} />

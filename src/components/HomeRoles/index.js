@@ -4,9 +4,8 @@ function HomeRoles(props) {
    return (
    <>
    <div>
-   <h3>
-      <i class="fa fa-terminal iconColor" aria-hidden="true"></i> 
-      &nbsp; {props.roleType} 
+   <h3 className="homeRoles">
+      <i class="fa fa-terminal iconColor" aria-hidden="true"></i>{props.roleType} 
    </h3>
    </div>
 
