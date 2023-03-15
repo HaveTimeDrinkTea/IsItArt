@@ -1,5 +1,9 @@
 # IsItArt
 
+## PLEASE NOTE
+***15 Mar 2023 1400hrs (GMT) Whilst this single page app has been developed with no issues on the local dev server, only the home page is shown on the deployed GitHub Pages. I am working to get it properly deployed on GitHub pages.***
+
+
 ## Description
 
 This project is part of the Frontend Dev Boot Camp course challenge for the thirteen week "Modern Development with React: React Portfolio". 
