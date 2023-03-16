@@ -1,16 +1,16 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Container from '../components/Container';
 import Row from '../components/Row';
 import Col from '../components/Col';
 import HomeRoles from '../components/HomeRoles';
 import ProjAccordion from '../components/ProjAccordion';
 import '../index.css';
-import portfolioData from '../components/portfolio.json';
+// import portfolioData from '../components/portfolio.json';
 
 
 export default function Portfolio() {
 
-   const[portfolioList, setPortfolioList] = useState(portfolioData);
+   // const[portfolioList, setPortfolioList] = useState(portfolioData);
    
    return (
       <>

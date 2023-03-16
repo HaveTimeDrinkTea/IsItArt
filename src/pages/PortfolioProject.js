@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Container from '../components/Container';
 import Row from '../components/Row';
 import Col from '../components/Col';
@@ -8,10 +8,9 @@ import portfolioData from '../components/portfolio.json';
 
 
 export default function PortfolioProject(props) {
+   
+   let projectObj = portfolioData[(parseInt(props.id)-1)];
 
- let projectObj = portfolioData[(parseInt(props.id)-1)];
-
- console.log("projectObj:", projectObj);
 
    return (
       <>
@@ -40,8 +39,8 @@ export default function PortfolioProject(props) {
                   </div>   
 
                   <div className="alignRight">   
-                     <a href={projectObj.projURL} target="_blank" alt={projectObj.projName} className="pageNavA">{projectObj.projName} <i className="fa fa-chevron-circle-right" aria-hidden="true"></i><i className="fa fa-chevron-circle-right" aria-hidden="true"></i><i className="fa fa-chevron-circle-right" aria-hidden="true"></i></a> <br/>
-                     {projectObj.isGithubURL && (<a href={projectObj.githubURL} className="pageNavA"><i className="fa-brands fa-github"></i>GitGub Details <i className="fa fa-chevron-circle-right" aria-hidden="true"></i><i className="fa fa-chevron-circle-right" aria-hidden="true"></i><i className="fa fa-chevron-circle-right" aria-hidden="true"></i></a>)} <br/> 
+                     <a href={projectObj.projURL} target="_blank" rel="noreferrer" alt={projectObj.projName} className="pageNavA">{projectObj.projName} <i className="fa fa-chevron-circle-right" aria-hidden="true"></i><i className="fa fa-chevron-circle-right" aria-hidden="true"></i><i className="fa fa-chevron-circle-right" aria-hidden="true"></i></a> <br/>
+                     {projectObj.isGithubURL && (<a href={projectObj.githubURL} className="pageNavA" target="_blank" rel="noreferrer"><i className="fa-brands fa-github"></i>GitGub Details <i className="fa fa-chevron-circle-right" aria-hidden="true"></i><i className="fa fa-chevron-circle-right" aria-hidden="true"></i><i className="fa fa-chevron-circle-right" aria-hidden="true"></i></a>)} <br/> 
                      <a href="/portfolio" target="_blank" alt="Portfolio main page" className="pageNavA">back to portfolio <i className="fa-solid fa-person-walking-arrow-loop-left"></i></a>
 
                   </div>

@@ -5,8 +5,8 @@ import "./style.css";
 export default function CarouselArt() {
   return (
    <>
-   <div className="rhsPortfolioArt">
-    <Carousel fade variant="dark" center>
+   <div className="rhsPortfolioArt center100">
+    <Carousel fade variant="dark">
 
       <Carousel.Item>
         <img

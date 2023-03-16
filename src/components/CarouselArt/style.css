@@ -10,7 +10,7 @@
   /* box-shadow: 0 0 0 2px rgba(102, 173, 183,0.7), 8px 8px 0 0 rgba(102, 173, 183,0.7); */ 
 }
 
-.layered.box {
+/* .layered.box {
   box-shadow:
     0 1px 1px hsl(0deg 0% 0% / 0.075),
     0 2px 2px hsl(0deg 0% 0% / 0.075),
@@ -18,10 +18,10 @@
     0 8px 8px hsl(0deg 0% 0% / 0.075),
     0 16px 16px hsl(0deg 0% 0% / 0.075)
   ;
-}
+} */
 
-.traditional.box {
+/* .traditional.box {
   box-shadow:
     0 6px 6px hsl(0deg 0% 0% / 0.3);
-}
+} */
 

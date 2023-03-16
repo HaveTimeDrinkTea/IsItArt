@@ -26,3 +26,16 @@ a:hover > .accordionLink {
 .accordion-body {
    background-color: --var(--colorOrange) !important;
 }
+
+
+.accordion-button {
+   background-color: gray !important;
+}
+
+.accordion-button:focus {
+   box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+   color: #212529;
+}
