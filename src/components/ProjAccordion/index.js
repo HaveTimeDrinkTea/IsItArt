@@ -1,12 +1,14 @@
 
-import React, { useState } from 'react';
+import React from 'react';
 import Accordion from 'react-bootstrap/Accordion';
 import portfolioData from '../portfolio.json';
 import ProjAccordionItem from '../ProjAccordionItem';
 
 export default function ProjAccordion(props) {
 
-  const[portfolioList, setPortfolioList] = useState(portfolioData);
+  // const[portfolioList, setPortfolioList] = useState(portfolioData);
+  
+  let portfolioList = portfolioData;
 
   return (
     <>

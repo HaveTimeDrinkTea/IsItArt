@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -25,12 +25,12 @@ export default function NavbarScroll() {
             style={{ maxHeight: '190px' }}
             navbarScroll
           >
-            <Nav.Link as={Link} to="/portfolio" className="aHoverTopNav">Web Dev</Nav.Link>
-            <Nav.Link as={Link} to="/portfolioart" className="aHoverTopNav">Digital Illustration</Nav.Link>
-            <Nav.Link as={Link} to="/skills" className="aHoverTopNav">Skills</Nav.Link>
-            <Nav.Link as={Link} to="/" className="aHoverTopNav">About Me</Nav.Link>
-            <Nav.Link as={Link} to="/resume" className="aHoverTopNav">Résumé</Nav.Link>
-            <Nav.Link as={Link} to="/contact" className="aHoverTopNav">Contact</Nav.Link>
+            <Nav.Link href="/portfolio" className="aHoverTopNav">Web Dev</Nav.Link>
+            <Nav.Link href="/portfolioart" className="aHoverTopNav">Digital Illustration</Nav.Link>
+            <Nav.Link href="/skills" className="aHoverTopNav">Skills</Nav.Link>
+            <Nav.Link href="/" className="aHoverTopNav">About Me</Nav.Link>
+            <Nav.Link href="/resume" className="aHoverTopNav">Résumé</Nav.Link>
+            <Nav.Link href="/contact" className="aHoverTopNav">Contact</Nav.Link>
 
           </Nav>
         </Navbar.Collapse>
