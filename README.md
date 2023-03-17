@@ -1,8 +1,5 @@
 # IsItArt
 
-## PLEASE NOTE
-***15 Mar 2023 1400hrs (GMT) Whilst this single page app has been developed with no issues on the local dev server, only the home page is shown on the deployed GitHub Pages. I am working to get it properly deployed on GitHub pages.***
-
 
 ## Description
 
@@ -133,4 +130,11 @@ MIT License [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg
 * If you have any query about this personal portforlio, please contact me via
   * GitHub [https://github.com/HaveTimeDrinkTea](https://github.com/HaveTimeDrinkTea)
   * email to <havetimedrinktea@gmail.com>
+  
+  
+
+## PLEASE NOTE
+***15 Mar 2023 1400hrs (GMT) Whilst this single page app has been developed with no issues on the local dev server, only the home page is shown on the deployed GitHub Pages. I am working to get it properly deployed on GitHub pages.***
+
+***16 Mar 2023 2100hrs (GMT) The issues relating to React Router Dom and Bootstrap Navbar have been resolved.*** 
 
