@@ -10,7 +10,7 @@ export default function NavbarScroll() {
   return (
     <Navbar expand="lg" className="navbarScroll fixed-top justify-content-end">
       <Container fluid>
-        <Navbar.Brand href="/" className="aHoverTopNavLogo">
+        <Navbar.Brand href="/isitart/index.html" className="aHoverTopNavLogo">
           HaveTimeDrinkTea <br/>
           <div className="avatar_container">
             <div className="avatar_middle">
