@@ -10,7 +10,7 @@ export default function NavbarScrollFooter() {
   return (
     <Navbar expand="lg" fixed="bottom" className="navbarScrollFooter justify-content-end">
       <Container fluid>
-        <Navbar.Brand href="/" className="aHoverFooterLogo"><i className="fa fa-copyright" aria-hidden="true"></i> 2023 | Pei Wang #Kindfulness</Navbar.Brand>
+        <Navbar.Brand href="/isitart/index.html" className="aHoverFooterLogo"><i className="fa fa-copyright" aria-hidden="true"></i> 2023 | Pei Wang #Kindfulness</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
