@@ -5,10 +5,10 @@
       "projURL": "https://www.teanamu.com",
       "imageLoc": "https://lh6.googleusercontent.com/4A0eZ9rtPkERRj2XYPdgtKWy3Vmq-Yk14G27xQJ-d-BSug3rcGYkxJwcxQjyhcpTz40=w300-h250-p",
       "isGithubURL": false,
-      "githubURL": "",
+      "githubURL": "https://www.teanamu.com",
       "tech": "Wordpress & Woocommerce",
       "descShort": "Live retail site running since 2009 selling tea, tea class and tea house booking.",
-      "descLong": "This is the online store for my business Teanamu Chaya Teahouse. It features Woocommerce as the shopping engine on Wordpress. The frontend design is customised from a commercial theme."
+      "descLong": "This is the online store for my business Teanamu Chaya Teahouse. It features Woocommerce as the shopping engine on Wordpress. The frontend design is customized from a commercial theme."
    },
    {
       "id": "2",
@@ -41,7 +41,7 @@
       "githubURL": "https://github.com/HaveTimeDrinkTea/w06_JS_Code_Quiz",
       "tech": "JavaScript, HTML & CSS",
       "descShort": "A fun and interactive application featuring a timed multiple choice quiz.",
-      "descLong": "A fun and interactive application featuring a timed multiple choice quiz. This application is designedx to be scalable as more questions can be fed into the code as well changing the timing allowed for the quiz and the penalty given for incorrect answers."
+      "descLong": "A fun and interactive application featuring a timed multiple choice quiz. This application is designed to be scalable as more questions can be fed into the code as well changing the timing allowed for the quiz and the penalty given for incorrect answers."
    },
    {
       "id": "5",
