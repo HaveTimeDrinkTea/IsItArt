@@ -15,6 +15,10 @@ export default function ProjAccordionItem(props) {
                   <p>
                      {props.descShort}
                   </p>
+
+                  <p>
+                     {props.descLong}
+                  </p>
                   <p>
                      Created with {props.tech}
                   </p>
