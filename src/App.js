@@ -25,8 +25,8 @@ function App() {
                <Route exact path="/" element={<Home />} />
                <Route exact path="/contact" element={<Contact />} />
                <Route exact path="/portfolio" element={<Portfolio />} />
-               <Route exact path="/portfolioproject/1" element={<PortfolioProject id={1} />} />
-               <Route exact path="/portfolioproject/2" element={<PortfolioProject id={2} />} />
+               <Route exact path="/portfolioproject/1" element={<PortfolioProject id={"1"} />} />
+               <Route exact path="/portfolioproject/2" element={<PortfolioProject id={"2"} />} />
                <Route exact path="/portfolioproject/3" element={<PortfolioProject id={"3"} />} />
                <Route exact path="/portfolioproject/4" element={<PortfolioProject id={"4"} />} />
                <Route exact path="/portfolioproject/5" element={<PortfolioProject id={"5"} />} />
